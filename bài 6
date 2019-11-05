@@ -1,0 +1,16 @@
+#include<iostream>
+#include<cmath>
+//tinh tong S(n)=1+2+3+...+(n-1)+n
+using namespace std;
+int main()
+{
+	int n;
+	cout<<"Nhap n:"; cin>>n;
+	int S=0;
+	for(int i=1;i<=n;i++)
+	{
+		S=S+i;
+	}
+	cout<<"Tong cua day so la:"<<S;
+	return 1;
+}
