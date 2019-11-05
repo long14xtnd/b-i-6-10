@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+//tinh S(n)=1*1+2*2+3*3+...+(n-1)*(n-1)+n*n
+int main()
+{
+	int n;
+	cout<<"Nhap n:";
+	cin>>n;
+	int S=0;
+	for(int i=1;i<=n;i++)
+	{
+		S=S+i*i;
+	}
+	cout<<"Tong cua day so la:"<<S;
+	return 1;
+	
+}
