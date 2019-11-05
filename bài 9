@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+//tinh T(x,n)=x^n
+int main()
+{
+	int x,n;
+	cout<<"Nhap x:";
+	cin>>x;
+	cout<<"Nhap n:";
+	cin>>n;
+	int T=1;
+	for(int i=1;i<=n;i++)
+	{
+		T=T*x;
+	}
+	cout<<"T(n)= "<<T;
+	return 1;
+	
+}
