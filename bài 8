@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+//tinh T(n)=1*2*3*...*(n-1)*n
+int main()
+{
+	int n;
+	cout<<"Nhap n:";
+	cin>>n;
+	int T=1;
+	for(int i=1;i<=n;i++)
+	{
+		T=T*i;
+	}
+	cout<<"T(n)= "<<T;
+	return 1;
+	
+}
